@@ -1,8 +1,8 @@
 
 
 import React from 'react'
-import Logo_dark from '../assets/logo_dark.png'
-import Logo_light from '../assets/logo_light.png'
+import Logo_dark from '../assets/Logo_dark.png'
+import Logo_light from '../assets/Logo_light.png'
 import { BiCloset, BiMenu, BiRightArrowAlt } from 'react-icons/bi'
 import Menudark from '../assets/menu_dark.png'
 import Menuwhite from '../assets/menu_white.png'
