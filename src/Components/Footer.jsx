@@ -59,7 +59,7 @@ const Footer = ({ theme }) => {
           </div>
         </motion.div>
       </div>
-
+      {/* comment here */}
       <hr className="border-gray-300 dark:border-gray-600 my-6" />
 
       {/* Footer Bottom */}
