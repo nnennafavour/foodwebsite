@@ -1,6 +1,6 @@
 import React from 'react'
-import logo_dark from '../assets/logo_dark.png'
-import logo_light from '../assets/logo_light.png'
+import Logo_dark from '../assets/Logo_dark.png'
+import Logo_light from '../assets/Logo_light.png'
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 import { motion } from "framer-motion"
 
@@ -23,7 +23,7 @@ const Footer = ({ theme }) => {
           className='space-y-5 text-sm text-gray-700 dark:text-gray-400'
         >
           <img
-            src={theme === 'dark' ? logo_dark : logo_light}
+            src={theme === 'dark' ? Logo_dark : Logo_light}
             className="h-8 w-12 sm:h-10 sm:w-10"
             alt=""
           />
