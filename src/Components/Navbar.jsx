@@ -61,7 +61,7 @@ const Navbar = ({ theme, setTheme }) => {
 
       <ThemeToggleBtn theme={theme} setTheme={setTheme} />
 
-      <img src={theme === 'dark' ? Menuwhite : Menudark} alt="Menu" onClick={()=> setSidebarOpen(true)}
+      <img src={theme === 'dark' ? Menu_white : Menu_dark} alt="Menu" onClick={()=> setSidebarOpen(true)}
       className="w-8 sm:hidden" />
 
       <a
