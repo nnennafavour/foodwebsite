@@ -1,54 +1,8 @@
-// import React from 'react'
-// import Logodark from '../assets/logo_dark.png'
-// import Logolight from '../assets/logo_light.png'
-// import { BiRightArrowAlt } from 'react-icons/bi'
-
-// const Navbar = ({theme, setTheme}) => {
-//   return (
-//     <div className="flex justify-between items-center px-4 sm:px-12 lg:px-24 xl:px-40
-//     py-4 sticky top-0 z-20 backdrop-blur-xl font-medium bg-white/50 dark:bg-gray-900/70">
-
-//     <img src={theme === 'dark' ? Logolight : Logodark}
-//     className="h-8 w-8 sm:h-10 sm:w-10" alt="Logo"/>
-
-//     <div className='text-gray-700 dark:text-white sm:text-sm max-sm:w-60 max-sm:pl-10
-//     max-sm:fixed top-0 bottom-0 right-0 max-sm:min-h-screen max-sm:h-full max-sm:flex-col
-//     max-sm:bg-primary max-sm:text-white max-sm:pt-20 flex sm:items-center gap-5 transition-all'>
-//       <a href="#" className='sm:hover:border-b'>Home</a>
-//       <a href="#services" className='sm:hover:border-b'>Services</a>
-//       <a href="#our-work" className='sm:hover:border-b'>Our Work</a>
-//       <a href="#contact-us" className='sm:hover:border-b'>Contact Us</a>
-//     </div>
-
-//     <div>
-//       <a href="#contact-us" className='text-sm max-sm:hidden flex items-center gap-2 bg-primary
-//       text-white px-6 py-2 rounded-full cursor-pointer hover:scale-103 transition-all'>
-//         Connect <BiRightArrowAlt />
-//       </a>
-
-//     </div>
-
-//     <div className="leading-tight">
-//     <h1 className="text-sm sm:text-base font-bold -ml-230 text-red-800">
-//       The Old Ways
-//     </h1>
-//     <p className="text-[10px] sm:text-xs -ml-230 text-amber-500">
-//       ...the heart of home
-//     </p>
-//   </div>
-
-    
-//     </div> 
-//   )
-// }
-
-// export default Navbar
-
 
 
 import React from 'react'
-import Logodark from '../assets/logo_dark.png'
-import Logolight from '../assets/logo_light.png'
+import Logo_dark from '../assets/logo_dark.png'
+import Logo_light from '../assets/logo_light.png'
 import { BiCloset, BiMenu, BiRightArrowAlt } from 'react-icons/bi'
 import Menudark from '../assets/menu_dark.png'
 import Menuwhite from '../assets/menu_white.png'
@@ -74,7 +28,7 @@ const Navbar = ({ theme, setTheme }) => {
       {/* LEFT: LOGO + TEXT */}
       <div className="flex items-start gap-2">
         <img
-          src={theme === 'dark' ? Logolight : Logodark}
+          src={theme === 'dark' ? Logo_light : Logo_dark}
           className="h-8 w-8 sm:h-10 sm:w-10"
           alt="Logo"
         />
