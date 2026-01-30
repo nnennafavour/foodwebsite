@@ -3,14 +3,14 @@ import tasty from './tasty.png'
 import primeline from './primeline.png'
 import natures from './natures.png'
 import global_del from './global_del.png'
-import Teamchef from './teamchef.png'
+import Teamchef from './Teamchef.png'
 import teamM2 from './teamM2.png'
 import teamW1 from './teamW1.png'
 import teamW3 from './teamW3.png'
 import teamM4 from './teamM4.png'
-import teamHead from './teamHead.png'
-import teamM5 from './teamM5.png'
-import teamW6 from './teamW6.png'
+import TeamHead from './TeamHead.png'
+import TeamM5 from './TeamM5.png'
+import TeamW6 from './TeamW6.png'
 
 export const company_logos = [
   fresh,
@@ -25,7 +25,7 @@ export const teamData = [
       name: 'Chef Wizzy',
       role: 'C.E.O',
       // description: 'Leads our kitchen with passion, creativity, and years of culinary experience.',
-      image: teamHead,
+      image: TeamHead,
     },
     {
       name: 'Chef Michael',
@@ -55,13 +55,13 @@ export const teamData = [
       name: 'Chuks Ogan',
       role: 'Head Chef',
       // description: 'Leads our kitchen with passion, creativity, and years of culinary experience.',
-      image: teamM5,
+      image: TeamM5,
     },
     {
       name: 'Victoria Dan',
       role: 'Co Chef',
       // description: 'Leads our kitchen with passion, creativity, and years of culinary experience.',
-      image: teamW6,
+      image: TeamW6,
     },
     {
       name: 'Bless Eric',
