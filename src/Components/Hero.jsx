@@ -38,7 +38,7 @@ const Hero = () => {
 
     className="text-sm sm:text-lg mt-0 font-medium text-gray-500 gap-0.5 dark:text-white/75 max-w-4/5 sm:max-w-lg pb-3">
     No worries, we can cook for you and your family in small or large 
-    quantities for a token.Like soups stew in litres and more
+    quantities for a token. Like soups, stew in litres and lots more.
     </motion.p>
     </div>
 
